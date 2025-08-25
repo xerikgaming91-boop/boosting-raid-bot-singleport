@@ -1,0 +1,28 @@
+{
+  "name": "boosting-raid-bot",
+  "version": "2.2.1",
+  "type": "module",
+  "main": "src/server-admin.js",
+  "scripts": {
+    "install:ui": "npm --prefix frontend/admin i",
+    "build:ui": "vite build --config frontend/admin/vite.config.js --root frontend/admin",
+    "dev": "node src/server-admin.js --dev",
+    "start": "node src/server-admin.js --prod"
+  },
+  "dependencies": {
+    "better-sqlite3": "9.6.0",
+    "cors": "2.8.5",
+    "discord.js": "14.16.3",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "express-session": "1.18.1",
+    "helmet": "7.1.0",
+    "morgan": "1.10.0",
+    "nanoid": "5.0.7",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.1",
+    "vite": "5.4.2"
+  }
+}

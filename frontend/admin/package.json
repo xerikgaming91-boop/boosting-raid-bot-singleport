@@ -1,0 +1,15 @@
+{
+  "name": "boosting-admin",
+  "version": "2.2.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "boosting-raid-bot": "file:../..",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.26.2"
+  },
+  "scripts": {
+    "noop": "echo using root vite to build"
+  }
+}
